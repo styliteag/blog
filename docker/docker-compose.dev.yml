@@ -1,0 +1,15 @@
+services:
+  homepage:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "82:80"
+    volumes:
+      # Mount source code for development
+      - ..:/src
+    environment:
+      - HUGO_ENV=development
+    restart: unless-stopped
+    # Override command to watch for changes
+    command: sh -c "cd /src && hugo server --bind 0.0.0.0 --port 80 --buildDrafts --buildFuture"
