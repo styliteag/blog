@@ -4,7 +4,7 @@ date: 2025-05-21T06:32:31+00:00
 draft: false
 authors: ["Matteo Keller"]
 categories: ["- Datenspeicher-Lösung - IT-Management und Datensicherheit"]
-tags: ["datenspeicher l sung   it management und datensicherheit"]
+tags: ["datenspeicher it management datensicherheit"]
 showHero: true
 description: "NAS, SAN oder DAS? Was Unternehmen über Speicherlösungen wissen sollten:"
 ---
