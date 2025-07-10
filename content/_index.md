@@ -3,7 +3,7 @@ title: "Stylite AG"
 description: "ZFS, security, and Docker solutions"
 ---
 
-# Welcome to Stylite AG
+# Welcome to Stylite AG!
 
 We are specialists in **ZFS, security, and Docker solutions**, providing enterprise-grade storage and containerization expertise.
 

@@ -4,14 +4,14 @@
 
 theme = "blowfish"
 baseURL = "/"
-defaultContentLanguage = "en"
+defaultContentLanguage = "de"
 disableLanguages = [] #to allow translation work requiring shipping to production
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
 summaryLength = 30
-hasCJKLanguage = true
+hasCJKLanguage = false
 
 buildDrafts = false
 buildFuture = false
@@ -79,10 +79,10 @@ enableEmoji = true
     [[segments.core.includes]]
       # Debug core pages
       path = '{/,/docs,/docs/**,/samples,/samples/**}'
-  [segments.en_only]
-    [[segments.en_only.includes]]
+  [segments.de_only]
+    [[segments.de_only.includes]]
       # Alternatively, you can use environment variable
       #   - UNIX: HUGO_DISABLELANGUAGES='it ja zh-cn' npm run example:core
       #   - Windows CMD: set "HUGO_DISABLELANGUAGES=it ja zh-cn" && npm run example:core
       #   - Windows PowerShell: $env:HUGO_DISABLELANGUAGES="it ja zh-cn"; npm run example:core
-      lang = 'en'
+      lang = 'de'
