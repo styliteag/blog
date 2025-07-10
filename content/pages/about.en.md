@@ -4,7 +4,7 @@ title: "About Stylite AG"
 
 # About Stylite AG
 
-Wir sind specialists in **ZFS, security, and Docker solutions**, providing enterprise-grade storage and containerization expertise.
+We are specialists in **ZFS, security, and Docker solutions**, providing enterprise-grade storage and containerization expertise.
 
 ## Our Focus Areas
 
